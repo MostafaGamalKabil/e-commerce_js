@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="icomoon/style.css">
+  <link rel="stylesheet" href="style/login.css">
+  <script defer src="javaScript/login.js"></script>
+</head>
+<body>
+
+
+  <!-- main Start -->
+  <main id="main">
+    <!-- validation form -->
+    <section>
+
+    
+
+        <form id="form" action="index.html">
+          <div style="position: relative;" class="form-container">
+            <h2>Login</h2>
+            <div style="margin-top: 25px;" class="parent_input">
+              <label for="text"><b>User Name</b></label>
+              <input class="input" type="text"placeholder="Enter Username" name="name" id="username" required/>
+              <div class="icon-check-circle"></div>
+                <p id="usermassage"> at least 3 character </p>
+            </div>
+
+            <div class="parent_input">
+            <label for="email"><b>Email</b></label>
+            <input class="input" type="text" placeholder="Enter Email" name="email" id="email" required/>
+            <div class="icon-check-circle"></div>
+            <p id="emailmessage"> Please enter a correct email address </p>
+          </div>
+
+
+
+            <button disabled type="submit" class="registerbtn">Login</button>
+            <br>
+            <p>Create an Account <a style="text-decoration: none; color: royalblue;" href="register.html"> SignUp</a></p>
+          </div>
+        </form>
+    </section>
+  <!-- main Start -->
+  
+</body>
+</html>
